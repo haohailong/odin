@@ -213,7 +213,8 @@ h4, h5, h6 {
     line-height: 1.15em;
     margin: 0 0 0.4em 0;
     font-family: 'Avenir Next', 'Helvetica Neue', Arial, 'Lantinghei SC', 'Pingfang SC', 'Microsoft YaHei', 微软雅黑, Avenir, Helvetica, STHeiti, 'Hiragino Sans GB', 'WenQuanYi Micro Hei', SimSun, 'Nimbus Sans L', sans-serif;
-    text-rendering: optimizeLegibility;
+    font-weight: 600;
+	text-rendering: optimizeLegibility;
 }
 
 h1 {
