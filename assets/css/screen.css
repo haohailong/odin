@@ -1053,7 +1053,7 @@ body:not(.post-template) .post-title {
 }
 
 .post-template .post-title {
-    margin-bottom: 0.2em;
+    margin-bottom: 0.4em;
 }
 
 .post-template .post-meta {
