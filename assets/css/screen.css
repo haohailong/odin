@@ -247,9 +247,6 @@ a {
     color: #4A4A4A;
     transition: color 0.3s ease;
 	text-decoration: none;
-	border-bottom-style: solid;
-	border-bottom-width: 1px;
-	padding-bottom: 2px;
 }
 
 a:hover {
@@ -283,7 +280,7 @@ dl dt {
     text-align: right;
     text-overflow: ellipsis;
     white-space: nowrap;
-    font-weight: 600: 700;
+    font-weight: 500:600;
     margin-bottom: 1em;
 }
 
