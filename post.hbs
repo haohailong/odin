@@ -8,8 +8,8 @@
 
 <header class="main-header post-head {{#if image}}" style="background-image: url({{image}}){{else}}no-cover{{/if}}">
     <nav class="main-nav {{#if image}}overlay{{/if}} clearfix">
-        <a class="back-button icon-arrow-left" href="{{@blog.url}}"> Home</a>
-        <a class="subscribe-button icon-feed" href="{{@blog.url}}/rss/"> Subscribe</a>
+        <a class="back-button icon-arrow-left" href="{{@blog.url}}">首页</a>
+        <a class="subscribe-button icon-feed" href="{{@blog.url}}/rss/">订阅</a>
     </nav>
 </header>
 
@@ -41,7 +41,7 @@
 
             {{#if image}}
             <figure class="author-image">
-                <a class="img" href="{{url}}" style="background-image: url({{image}})"><span class="hidden">{{name}}'s Picture</span></a>
+                <a class="img" href="{{url}}" style="background-image: url({{image}})"><span class="hidden">{{name}}的图片</span></a>
             </figure>
             {{/if}}
 
@@ -51,7 +51,7 @@
                 {{#if bio}}
                     <p>{{bio}}</p>
                 {{else}}
-                    <p>Read <a href="{{url}}">more posts</a> by this author.</p>
+                    <p>阅读<a href="{{url}}">更多他的文章</a>。</p>
                 {{/if}}
                 <div class="author-meta">
                     {{#if location}}<span class="author-location icon-location">{{location}}</span>{{/if}}
