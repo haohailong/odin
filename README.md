@@ -1,4 +1,10 @@
-# Odin
+# Odin-Mod
+
+这是个一个修改自 Odin 的主题。该主题的原作者为 Andrea Tarquini，郝海龙在他的基础上做了一些修改和汉化。后面附有原作者的说明。
+
+A Ghost theme created by Andrea Tarquini, and modified by Hailong Hao. The original readme text by Andrea is below:
+
+## Odin
 
 ![Ghost version](https://img.shields.io/badge/Ghost-0.7.x-brightgreen.svg?style=flat-square)
 [![Donate](https://img.shields.io/badge/donate-paypal-003087.svg?style=flat-square)](https://www.paypal.me/andreatarquini/5)
