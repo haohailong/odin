@@ -259,7 +259,7 @@ p, ul, ol, dl {
     -webkit-font-feature-settings: 'liga' 1, 'onum' 1, 'kern' 1;
     -moz-font-feature-settings: 'liga' 1, 'onum' 1, 'kern' 1;
     -o-font-feature-settings: 'liga' 1, 'onum' 1, 'kern' 1;
-    margin: 0 0 1.75em 0;
+    margin: 0 0 1em 0;
     text-rendering: geometricPrecision;
 }
 
@@ -952,7 +952,7 @@ body:not(.post-template) .post-title {
 }
 
 .post-excerpt p {
-    margin: 0;
+    margin: 1em 0 0 0;
     font-size: 0.9em;
     line-height: 1.7em;
 }
@@ -964,12 +964,11 @@ body:not(.post-template) .post-title {
 	cursor: pointer;
 	padding: 5px 8px;
 	width: auto;
-	margin-top:0.5em;
 }
 
 .post-meta {
     display: block;
-    margin: 1.75rem 0 0 0;
+    margin: 1em 0 0 0;
     font-family: 'Avenir Next', 'Helvetica Neue', Arial, 'Lantinghei SC', 'Pingfang SC', 'Microsoft YaHei', 微软雅黑, Avenir, Helvetica, STHeiti, 'Hiragino Sans GB', 'WenQuanYi Micro Hei', SimSun, 'Nimbus Sans L', sans-serif;
     font-size: 1.5rem;
     line-height: 2.2rem;
