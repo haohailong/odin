@@ -194,6 +194,7 @@ body {
     -moz-font-feature-settings: 'kern' 1;
     -o-font-feature-settings: 'kern' 1;
     text-rendering: optimizeLegibility;
+	text-align:justify;
 }
 
 ::-moz-selection {
@@ -1399,6 +1400,11 @@ body:not(.post-template) .post-title {
     background-size: cover;
     overflow: hidden;
 }
+
+.read-next-story p {
+	text-align:justify;
+}
+
 .read-next-story:hover:before {
     background: rgba(0,0,0,0.8);
     transition: all 0.2s ease;
