@@ -958,7 +958,13 @@ body:not(.post-template) .post-title {
 }
 
 .read-more {
-	text-decoration:none;
+	border: 1px solid #333;
+	border-radius: 4px;
+	box-shadow: none;
+	cursor: pointer;
+	padding: 5px 8px;
+	width: auto;
+	margin-top:0.5em;
 }
 
 .post-meta {
