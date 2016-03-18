@@ -958,12 +958,7 @@ body:not(.post-template) .post-title {
 }
 
 .read-more {
-	border: 1px solid #333;
-	border-radius: 4px;
-	box-shadow: none;
-	cursor: pointer;
-	padding: 5px 8px;
-	width: auto;
+	text-decoration:none;
 }
 
 .post-meta {
@@ -1173,14 +1168,19 @@ body:not(.post-template) .post-title {
 .author-meta a {
     color: #9EABB3;
 	text-decoration: none;
-	border-bottom-style: solid;
-	border-bottom-width: 1px;
-	padding-bottom: 2px;
 }
 .author-meta a:hover,
 .author-meta a:focus {
     color: #111;
 	text-decoration: none;
+}
+
+.author a:hover,
+.author a:focus {
+	text-decoration: none;
+	border-bottom-style: solid;
+	border-bottom-width: 1px;
+	padding-bottom: 2px;
 }
 
 /* Create some space to the right for the share links */
