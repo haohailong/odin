@@ -1167,7 +1167,7 @@ body:not(.post-template) .post-title {
     list-style: none;
     font-size: 1.4rem;
     line-height: 1;
-    font-style: italic;
+    font-style: normal;
     color: #9EABB3;
 }
 
@@ -1200,7 +1200,7 @@ body:not(.post-template) .post-title {
 }
 
 .post-footer h4 a:hover {
-    text-decoration: underline;
+    text-decoration: none;
 }
 
 /* Drop the share links in the space to the right.
